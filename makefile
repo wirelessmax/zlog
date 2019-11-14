@@ -1,5 +1,7 @@
 # Top level makefile, the real shit is at src/makefile
 
+LDFLAGS += -shared
+
 TARGETS=noopt 32bit
 
 all:
